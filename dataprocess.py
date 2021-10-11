@@ -94,8 +94,8 @@ def li(p):
     
 def process():
     #twitter 0:Anger 1:Disgust 2 Fear 3 Happiness 4 Sadness 5 Surprise
-    predict=np.load("ablation/predict_twitter.npy")
-    f = open('exp_data/true_label_twitter.txt','r')
+    predict=np.load("data/predict_twitter.npy")
+    f = open('data/true_label_twitter.txt','r')
     a = f.read()
     tr = eval(a)
     f.close()
