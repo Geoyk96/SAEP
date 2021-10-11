@@ -9,7 +9,7 @@ This file contains the social network information formated as the adjacent list:
 ~~~
 [[node0 's neighbors], [node1's neighbors],..., nodeN's neighbors]
 ~~~
-__Note:__each user index is corresponding to the index of the row in the data array in twitter_data.npy.
+*Note:* each user index is corresponding to the index of the row in the data array in twitter_data.npy.
 ### Test
 ~~~
 python impute.py -f data/data.npy -n data/network.pkl -o data/imputed_data.npy
