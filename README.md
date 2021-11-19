@@ -16,3 +16,6 @@ python predict.py -f data/twitter_data.npy -n data/twitter_network.pkl -o data/p
 ~~~
 ### Output Format
 The program outputs to a file named predict_twitter.npy which contains the data after prediction.
+
+Raw data link:
+Twitter：https://archive.org/details/twitter-iran
